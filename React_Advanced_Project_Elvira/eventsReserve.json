@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ignacio Doe",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb093da7d92733c001c0_Ignacio%20Villafruela%20Rodr%C3%ADguez.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Jane Bennett",
+      "image": "https://global-uploads.webflow.com/5eecfecbe625d195e35b89f2/624bfb401d7131c760ca1c63_Elieska%20Lensink.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Elvira Mersie Cid",
+      "image": "https://cdn.pixabay.com/photo/2020/02/22/09/09/cat-4869935_640.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "createdBy": 1,
+      "title": "Trampoline party",
+      "description": "Bounce around with your friends",
+      "image": "https://i.pinimg.com/736x/3d/2f/af/3d2faf4e3188d34a9fcdc00df59e77b0.jpg",
+      "categoryIds": [2],
+      "location": "My back yard",
+      "startTime": "2023-03-10T18:00",
+      "endTime": "2023-03-10T19:00"
+    },
+    {
+      "id": "2",
+      "createdBy": 1,
+      "title": "Laser Tag mania",
+      "description": "Let's play laser tag!",
+      "image": "https://www.ctvnews.ca/polopoly_fs/1.5118552.1600965663!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg",
+      "categoryIds": [2],
+      "location": "Blinded by the Lights Laser Tag, 15 Main St.",
+      "startTime": "2023-04-06T18:46",
+      "endTime": "2023-04-06T19:46"
+    },
+    {
+      "id": "3",
+      "createdBy": 2,
+      "title": "Badminton game",
+      "description": "Hit that shuttle!",
+      "image": "https://s3.eu-west-2.amazonaws.com/ws-activestirling/production/Badminton/_1200x630_crop_center-center_none/Badminton-3.jpg",
+      "categoryIds": [1, 2],
+      "location": "The Park",
+      "startTime": "2023-03-15T12:00",
+      "endTime": "2023-03-15T13:30"
+    },
+    {
+      "id": "4",
+      "createdBy": 2,
+      "title": "Yoga",
+      "description": "It's a bit of a stretch.",
+      "image": "https://lirp.cdn-website.com/e99dd073/dms3rep/multi/opt/F82A9382-2880w.jpg",
+      "categoryIds": [3],
+      "location": "Leeuwarden or on your location",
+      "startTime": "2024-06-09T06:00",
+      "endTime": "2024-06-09T08:00"
+    },
+    {
+      "id": "5",
+      "createdBy": 3,
+      "title": "Aquasports",
+      "description": "Jij hebt de wil, wij de weg!",
+      "image": "https://www.vondersweijde.nl/media/1005/skyword-image-472700.jpg?crop=0,0.16,0,0.40445556946182726&cropmode=percentage&width=1880&height=580&rnd=132029981240000000",
+      "categoryIds": [4],
+      "location": "Oldenzaal",
+      "startTime": "2024-06-19T06:00",
+      "endTime": "2024-06-19T08:00"
+    },
+    {
+      "id": "6",
+      "createdBy": 3,
+      "title": "Football Match",
+      "description": "A local football match",
+      "image": "https://images.unsplash.com/photo-1626248801379-51a0748a5f96?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fHw%3D",
+      "categoryIds": [1, 2],
+      "location": "Stadium",
+      "startTime": "2024-07-19T13:00",
+      "endTime": "2024-07-19T17:00"
+    },
+    {
+      "id": "7",
+      "createdBy": 3,
+      "title": "Scuba diving",
+      "description": "Workshop Scuba diving",
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2N1YmElMjBkaXZpbmd8ZW58MHx8MHx8fDA%3D",
+      "categoryIds": [4],
+      "location": "Maledive",
+      "startTime": "2024-07-25T13:00",
+      "endTime": "2024-07-25T17:00"
+    },
+    {
+      "id": "8",
+      "createdBy": 3,
+      "title": "Hobby",
+      "description": "Iedereen met artistieke ambities probeert altijd opnieuw verbinding te maken met de manier waarop ze dingen als kind zagen.",
+      "image": "https://cdn.pixabay.com/photo/2016/02/19/10/59/art-1209519_640.jpg",
+      "categoryIds": [5],
+      "location": "Hobbyplatsoen 24, Harderwijk",
+      "startTime": "2024-07-25T10:00",
+      "endTime": "2024-07-25T17:00"
+    }
+  ],
+  "categories": [
+    {
+      "name": "sports",
+      "id": "1"
+    },
+    {
+      "name": "games",
+      "id": "2"
+    },
+    {
+      "name": "relaxation",
+      "id": "3"
+    },
+    {
+      "name": "aquasports",
+      "id": "4"
+    },
+    {
+      "name": "creativity",
+      "id": "5"
+    }
+  ]
+}
